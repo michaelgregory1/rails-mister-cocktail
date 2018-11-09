@@ -8,11 +8,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
 
   <body>
-    <%= yield %>
-    <%= javascript_include_tag "application" %>
-    <%= javascript_pack_tag "application" %>
+    <%= render 'shared/navbar' %>
+    <%= render 'shared/banner' %>
+    <div class = "body-container">
+      <%= yield %>
+      <%= javascript_include_tag "application" %>
+      <%= javascript_pack_tag "application" %>
+    </div>
   </body>
 </html>

@@ -1,1 +1,46 @@
-// Specific CSS for your home-page
+.body-container {
+  padding: 20px;
+  // background-image: linear-gradient(rgba(7,30,61,0.7), rgba(7,30,61,0.7));
+  background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.body-container h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Bree Serif', serif;
+}
+
+.body-container h2 {
+  color: rgb(180, 180, 180);
+}
+
+// #add_cocktail {
+//   background-color: grey;
+//   color: white;
+//   padding: 5px;
+//   margin-top: 20px;
+// }
+
+// #add_cocktail {
+//   background-color: rgb(220, 220, 220);
+//   padding: 5px;
+//   margin-top: 20px !important;
+//   margin: auto;
+//   width: 200px;
+//   border-radius: 3px;
+//   box-shadow: 1px 1px 1px grey;
+// }
+
+// #add_cocktail a {
+//   color: white;
+// }
+
+// #add_cocktail a:hover {
+//   color: grey;
+//   text-decoration: none;
+// }
+
+
+

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  height: 400px;
+  min-width: 300px !important;
+  background-image: linear-gradient(rgba(200,200,200,0.7), rgba(200,200,200,0.7)), url("https://amp.businessinsider.com/images/5a79dacfe21c1125008b4931-750-563.jpg") !important;
+  margin: 10px !important;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px grey;
+  display: flex;
+  align-content: left;
+  color: white;
+}
+
+.card_description {
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.card a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.card li {
+  font-size: 26px;
+  padding-left: 15px;
+}
