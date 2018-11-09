@@ -22,13 +22,13 @@ class CocktailsController < ApplicationController
     end
   end
 
-  def edit          # GET /restaurants/:id/edit
+  def edit
   end
 
-  def update        # PATCH /restaurants/:id
+  def update
   end
 
-  def destroy       # DELETE /restaurants/:id
+  def destroy
   end
 
   private
