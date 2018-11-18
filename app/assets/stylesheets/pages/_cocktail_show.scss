@@ -1,0 +1,38 @@
+.cocktail-container {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 1px grey;
+}
+
+
+#name-badge {
+  background-color: #123A5F;
+  padding: 10px;
+  border-radius: 3px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.cocktail-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cocktail-pic {
+  width: 50%;
+  background-image: url("https://amp.businessinsider.com/images/5a79dacfe21c1125008b4931-750-563.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 3px;
+}
+
+.cocktail-bio {
+  width: 50%;
+}
+
+.cocktail-links {
+  margin-top: 20px;
+}

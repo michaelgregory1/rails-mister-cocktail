@@ -16,6 +16,10 @@
   color: white;
 }
 
+.card:hover {
+  background-image: linear-gradient(rgba(150,150,150,0.7), rgba(150,150,150,0.7)), url("https://amp.businessinsider.com/images/5a79dacfe21c1125008b4931-750-563.jpg") !important;
+}
+
 .card_description {
   text-align: left;
   position: absolute;

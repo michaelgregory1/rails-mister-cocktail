@@ -1,6 +1,5 @@
 .body-container {
   padding: 20px;
-  // background-image: linear-gradient(rgba(7,30,61,0.7), rgba(7,30,61,0.7));
   background-size: cover;
   text-align: center;
   min-height: 100vh;
@@ -16,6 +15,13 @@
   color: rgb(180, 180, 180);
 }
 
+#our-menu {
+  color: rgb(18, 58, 95);
+}
+
+.create-button {
+ margin-top: 30px;
+}
 // #add_cocktail {
 //   background-color: grey;
 //   color: white;
