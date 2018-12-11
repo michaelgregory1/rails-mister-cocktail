@@ -4,7 +4,7 @@
   <div class="row">
     <% @cocktails.each do |cocktail| %>
       <div class="col-xs-12 col-md-6 col-lg-4 offset-xs-4">
-        <div class="card">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= cl_image_path cocktail.photo, height: 450, width: 350, crop: :fill%>);">
           <div class="card_title">
             <h1><%= link_to cocktail.name, cocktail %></h1>
           </div>
@@ -13,13 +13,12 @@
               <li><%= dose.ingredient.name %></li>
             <% end %>
           </div>
+          <%= link_to "", cocktail, class: "card-link"%>
         </div>
       </div>
     <% end %>
   </div>
 </div>
-
-
 <div class="create-button">
   <%= link_to 'Create a new Cocktail', new_cocktail_path, class: "btn btn-primary btn-lg"%>
 </div>
