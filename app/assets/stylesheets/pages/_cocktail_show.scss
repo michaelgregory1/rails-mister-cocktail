@@ -21,11 +21,15 @@
 }
 
 .cocktail-pic {
-  width: 50%;
+  max-width:100%;
+  max-height:100%;
   background-size: cover;
   background-position: center;
-  height: 300px;
   border-radius: 3px;
+
+  img {
+    width: 100%;
+  }
 }
 
 .cocktail-bio {
